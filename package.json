@@ -1,0 +1,26 @@
+{
+  "name": "akwasibotwe",
+  "version": "0.0.1",
+  "description": "This is my first chat bot app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcofie/AkwasiBotwe.git"
+  },
+  "keywords": [
+    "Bot"
+  ],
+  "author": "Maxwell Cofie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcofie/AkwasiBotwe/issues"
+  },
+  "homepage": "https://github.com/mcofie/AkwasiBotwe#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
