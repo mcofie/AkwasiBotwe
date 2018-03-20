@@ -21,5 +21,7 @@ let port = 8000;
     // Make sure you add the database name and not the collection name
     // myDatabase = database.db("bot-api");
     // require('./app/route')(app,myDatabase);
-    app.listen(port, () => {console.log('We are live on ' + port);});
+    app.listen(process.env.PORT || 5000,()=>{
+        console.log("We are Live");
+    });
 // })
